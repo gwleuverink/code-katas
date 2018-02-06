@@ -1,0 +1,21 @@
+{
+    "name": "gwleuverink/code-katas",
+    "description": "Some simple coding exercises in PHP",
+    "type": "project",
+    "require": {
+        "larapack/dd": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },    
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Willem Leuverink",
+            "email": "willem@leuver.ink"
+        }
+    ],
+    "minimum-stability": "dev"
+}
