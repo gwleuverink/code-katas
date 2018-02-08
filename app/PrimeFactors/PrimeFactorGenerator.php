@@ -5,7 +5,7 @@ namespace App\PrimeFactors;
 class PrimeFactorGenerator
 {
     /**
-     * Undocumented function
+     * Generate an array of prime factors for $number
      *
      * @param integer $number
      * @return array
