@@ -10,7 +10,7 @@ class PrimeFactorGenerator
      * @param integer $number
      * @return array
      */
-    public static function generate($number)
+    public static function generate($number = 0)
     {
         $primes = [];
 
