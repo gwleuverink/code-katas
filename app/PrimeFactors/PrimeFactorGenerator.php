@@ -4,8 +4,24 @@ namespace App\PrimeFactors;
 
 class PrimeFactorGenerator
 {
-    public static function generate()
+    /**
+     * Undocumented function
+     *
+     * @param integer $number
+     * @return array
+     */
+    public static function generate($number)
     {
-        return 'Hello World';
+        $primes = [];
+
+        for ($divisor = 2; $number > 1; $divisor++) {
+            while ($number % $divisor == 0) {
+                $primes[] = $divisor;
+
+                $number /= $divisor;
+            }
+        }
+
+        return $primes;
     }
 }
